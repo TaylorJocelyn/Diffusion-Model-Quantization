@@ -44,6 +44,13 @@ Thanks! -->
 
 - [April, 2025] Published a review! Summarized the current mainstream quantization methods for diffusion models.
 
+<!-- <p align='center'>
+    </br>
+    <img src='pic.pdf' width='1000'>
+</p> -->
+
+<embed src="pic.pdf" width="600" height="400">
+
 <!-- ## Materials corresponding to Our Paper
 
 :white_check_mark: [**Supplementary Material (TVCG)**](https://drive.google.com/file/d/1_VTS4rUSl488wgSrz2K5BfKra33gvaHH/view?usp=sharing)
