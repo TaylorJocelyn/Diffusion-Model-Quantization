@@ -141,16 +141,49 @@ Thanks! -->
 :sparkle: **Code:**
 *   [Torch-based](https://github.com/zhengchen1999/bi-diffsr)
 
+### 1.8 LoRA-Based Enhancements
+
+:white_check_mark: [**EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models**] [Paper](https://arxiv.org/abs/2310.03270) *(ICLR 2024)*
+
+:sparkle: **Code:**
+*   [Torch-based](https://github.com/thisisbillhe/efficientdm) 
+
+:white_check_mark: [**IntLoRA: Integral Low-rank Adaptation of Quantized Diffusion Models**] [Paper](https://arxiv.org/abs/2410.21759) 
+
+:sparkle: **Code:**
+*   [Torch-based](https://github.com/csguoh/intlora) 
 
 
 
+### 2. Diffusion-Transformer(DiT) Quantization
+
+### 2.1 Group-wise Quantization
+
+:white_check_mark: [**An Analysis on Quantizing Diffusion Transformers**] [Paper](https://arxiv.org/abs/2406.11100) *(CVPR workshop)*
 
 
+:white_check_mark: [**Q-DIT: ACCURATE POST-TRAINING QUANTIZATION FOR DIFFUSION TRANSFORMERS**] [Paper](https://arxiv.org/abs/2406.17343) *(CVPR 2025)*
 
+:sparkle: **Code:**
+*   [Torch-based](https://github.com/juanerx/q-dit) 
 
+### 2.2 Channel Equalization
 
+:white_check_mark: [**PTQ4DiT: Post-training Quantization for Diffusion Transformers**] [Paper](https://arxiv.org/abs/2405.16005) *(NerIPS 2024)*
 
+:sparkle: **Code:**
+*   [Torch-based](https://github.com/adreamwu/ptq4dit) 
 
-<!-- ### 2. Diffusion-Transformer(DiT) Quantization -->
+:white_check_mark: [**DiTAS: Quantizing Diffusion Transformers via Enhanced Activation Smoothing**] [Paper](https://arxiv.org/abs/2409.07756) *(WACV 2025)*
+
+:sparkle: **Code:**
+*   [Torch-based](https://github.com/DZY122/DiTAS) 
+
+:white_check_mark: [**ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation**] [Paper](https://arxiv.org/abs/2406.02540) *(ICLR 2025)*
+
+:sparkle: **Code:**
+*   [Torch-based](https://github.com/a-suozhang/vidit-q) 
+
+:white_check_mark: [**HQ-DiT: Efficient Diffusion Transformer with FP4 Hybrid Quantization**] [Paper](https://arxiv.org/abs/2405.19751) 
 
 
