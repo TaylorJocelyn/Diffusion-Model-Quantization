@@ -1,4 +1,4 @@
-# Diffusion-Model-Quantization `<img class="emoji" alt=":art:" height="30" width="30" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png">`
+# Diffusion-Model-Quantization <img class="emoji" alt=":art:" height="30" width="30" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png">
 
 Selected papers, corresponding codes and pre-trained models in our review paper
 
