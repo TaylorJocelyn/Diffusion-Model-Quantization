@@ -1,8 +1,10 @@
-# Diffusion-Model-Quantization <img class="emoji" alt=":art:" height="30" width="30" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png">
-Selected papers, corresponding codes and pre-trained models in our review paper
- <!-- **"Neural Style Transfer: A Review" [[arXiv Version]](https://arxiv.org/abs/1705.04058) [[IEEE Version]](https://ieeexplore.ieee.org/document/8732370)** -->
+# Diffusion-Model-Quantization `<img class="emoji" alt=":art:" height="30" width="30" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png">`
 
- *If I missed your paper in this review, please email me or just pull a request here. I am more than happy to add it. Thanks!*
+Selected papers, corresponding codes and pre-trained models in our review paper
+
+<!-- **"Neural Style Transfer: A Review" [[arXiv Version]](https://arxiv.org/abs/1705.04058) [[IEEE Version]](https://ieeexplore.ieee.org/document/8732370)** -->
+
+*If I missed your paper in this review, please email me or just pull a request here. I am more than happy to add it. Thanks!*
 
 <!-- 
 ## Citation 
@@ -37,7 +39,6 @@ Please also consider citing our ECCV paper and AAAI (Oral) paper:
 
 Thanks! -->
 
-
 ---
 
 ## *News!*
@@ -57,138 +58,266 @@ Thanks! -->
 
 :white_check_mark: [**Images (TVCG)(.png)**](https://drive.google.com/file/d/14RN0GN09-rordzRqp4o8oU30BB7uiNcj/view?usp=sharing) -->
 
+<table>
+<tr>
+<td>Diffusion Backbone Types</td>
+<td>Quantization Methods</td>
+<td>Paper&Code</td>
+</tr>
+<tr>
+<td rowspan="22" colspan="1">Unet-based Diffusion Quantization</td>
+<td rowspan="2" colspan="1">Calibration Strategy Customization</td>
+
+<td><b>[Post-training Quantization on Diffusion Models]</b>
+(<a href="https://arxiv.org/abs/2211.15736" target="_blank" style="color: blue; text-decoration: underline;">Paper</a> ||
+<a href="https://github.com/42shawn/ptq4dm" target="_blank" style="color: blue; text-decoration: underline;">Code:Torch-based</a>)
+<i>(CVPR2023, First Diffusion Quantization Paper)<i>
+</td>
+
+</tr>
+<tr>
+
+<td><b>[EDA-DM: Enhanced Distribution Alignment for Post-Training Quantization of Diffusion Models]</b>
+(<a href="https://arxiv.org/abs/2401.04585" target="_blank" style="color: blue; text-decoration: underline;">Paper</a> ||
+<a href="https://github.com/BienLuky/EDA-DM" target="_blank" style="color: blue; text-decoration: underline;">Code:Torch-based</a>)
+<i>(CVPR2023, First Diffusion Quantization Paper)<i>
+
+</td>
+</tr>
+<tr>
+<td rowspan="2" colspan="1">Bi-modal Distribution Elimination</td>
+<td rowspan="2" colspan="1">[Q-Diffusion: Quantizing Diffusion Models](ICCV 2023)</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>Dynamic Quantization</td>
+<td>[Temporal Dynamic Quantization for Diffusion Models] (NeurIPS 2023)</td>
+</tr>
+<tr>
+<td rowspan="2" colspan="1">Time Information Align</td>
+<td>[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models] (CVPR 2024, Highlight)</td>
+</tr>
+<tr>
+<td>[QVD: Post-training Quantization for Video Diffusion Models](ACM MM 2024)</td>
+</tr>
+<tr>
+<td rowspan="5" colspan="1">Quantization Error Correction</td>
+<td>[QNCD: Quantization Noise Correction for Diffusion Models](ACM MM 2024)</td>
+</tr>
+<tr>
+<td>[PTQD: Accurate Post-Training Quantization for Diffusion Models](NeurIPS 2024)</td>
+</tr>
+<tr>
+<td> [Softmax Bias Correction for Quantized Generative Models]  (ICCV 2023, Workshop)</td>
+</tr>
+<tr>
+<td>[D$^2$-DPM: Dual Denoising for Quantized Diffusion Probabilistic Models](AAAI 2025)</td>
+</tr>
+<tr>
+<td>[Timestep-Aware Correction for Quantized Diffusion Models](ECCV 2024) </td>
+</tr>
+<tr>
+<td rowspan="3" colspan="1">Holistic QAT Optimization</td>
+<td>[Q-DM: An Efficient Low-bit Quantized Diffusion Model] (NeurIPS 2023)</td>
+</tr>
+<tr>
+<td>[QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning]</td>
+</tr>
+<tr>
+<td>[Memory-Efficient Fine-Tuning for Quantized Diffusion Model] (ECCV2024)</td>
+</tr>
+<tr>
+<td rowspan="5" colspan="1">Ultra-Low-Bit DMs</td>
+<td>[Binary Latent Diffusion]</td>
+</tr>
+<tr>
+<td>[BiDM: Pushing the Limit of Quantization for Diffusion Models] </td>
+</tr>
+<tr>
+<td>[Binarydm: Towards accurate binarization of diffusion model]</td>
+</tr>
+<tr>
+<td> [BitsFusion: 1.99 bits Weight Quantization of Diffusion Model] (NeurIPS 2024)</td>
+</tr>
+<tr>
+<td>[Binarized Diffusion Model for Image Super-Resolution] </td>
+</tr>
+<tr>
+<td rowspan="2" colspan="1">LoRA-Based Enhancements</td>
+<td>[EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models](ICLR 2024)</td>
+</tr>
+<tr>
+<td>[IntLoRA: Integral Low-rank Adaptation of Quantized Diffusion Models]</td>
+</tr>
+<tr>
+<td rowspan="6" colspan="1">Diffusion-Transformer(DiT) Quantization</td>
+<td rowspan="2" colspan="1">Group-wise Quantization</td>
+<td> [An Analysis on Quantizing Diffusion Transformers]   (CVPR workshop)</td>
+</tr>
+<tr>
+<td>[Q-DIT: ACCURATE POST-TRAINING QUANTIZATION FOR DIFFUSION TRANSFORMERS](CVPR 2025)</td>
+</tr>
+<tr>
+<td rowspan="4" colspan="1">Channel Equalization</td>
+<td> [PTQ4DiT: Post-training Quantization for Diffusion Transformers] (NerIPS 2024)</td>
+</tr>
+<tr>
+<td>[DiTAS: Quantizing Diffusion Transformers via Enhanced Activation Smoothing](WACV 2025)</td>
+</tr>
+<tr>
+<td>[ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation] (ICLR 2025)</td>
+</tr>
+<tr>
+<td>[HQ-DiT: Efficient Diffusion Transformer with FP4 Hybrid Quantization] </td>
+</tr>
+</table>
+
 ## A Taxonomy of Contemporary Approaches
 
 ### 1. Unet-based Diffusion Quantization
-###  1.1. Calibration Strategy Customization
 
-:white_check_mark: [**Post-training Quantization on Diffusion Models**] [Paper](https://arxiv.org/abs/2211.15736) *(CVPR2023, First Diffusion Quantization Paper)*
+### 1.1. Calibration Strategy Customization
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/42shawn/ptq4dm)
+✅ [**Post-training Quantization on Diffusion Models**] [Paper](https://arxiv.org/abs/2211.15736) *(CVPR2023, First Diffusion Quantization Paper)*
 
-:white_check_mark: [**EDA-DM: Enhanced Distribution Alignment for Post-Training Quantization of Diffusion Models**] [Paper](https://arxiv.org/abs/2401.04585) 
+❇️ **Code:**
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/BienLuky/EDA-DM)
+* [Torch-based](https://github.com/42shawn/ptq4dm)
+
+✅ [**EDA-DM: Enhanced Distribution Alignment for Post-Training Quantization of Diffusion Models**] [Paper](https://arxiv.org/abs/2401.04585)
+
+❇️ **Code:**
+
+* [Torch-based](https://github.com/BienLuky/EDA-DM)
 
 ### 1.2. Bi-modal Distribution Elimination
 
-:white_check_mark: [**Q-Diffusion: Quantizing Diffusion Models**] [Paper](https://arxiv.org/abs/2302.04304) *(ICCV 2023)*
+✅ [**Q-Diffusion: Quantizing Diffusion Models**] [Paper](https://arxiv.org/abs/2302.04304) *(ICCV 2023)*
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/Xiuyu-Li/q-diffusion) 
+❇️ **Code:**
+
+* [Torch-based](https://github.com/Xiuyu-Li/q-diffusion)
 
 ### 1.3 Dynamic Quantization
 
-:white_check_mark: [**Temporal Dynamic Quantization for Diffusion Models**] [Paper](https://arxiv.org/abs/2306.02316) *(NeurIPS 2023)*
+✅ [**Temporal Dynamic Quantization for Diffusion Models**] [Paper](https://arxiv.org/abs/2306.02316) *(NeurIPS 2023)*
 
 ### 1.4 Time Information Align
 
-:white_check_mark: [**TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models**] [Paper](https://arxiv.org/abs/2311.16503) *(CVPR 2024, Highlight)*
+✅ [**TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models**] [Paper](https://arxiv.org/abs/2311.16503) *(CVPR 2024, Highlight)*
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/ModelTC/TFMQ-DM) 
+❇️ **Code:**
 
-:white_check_mark: [**QVD: Post-training Quantization for Video Diffusion Models**] [Paper](https://arxiv.org/abs/2407.11585) *(ACM MM 2024)*
+* [Torch-based](https://github.com/ModelTC/TFMQ-DM)
+
+✅ [**QVD: Post-training Quantization for Video Diffusion Models**] [Paper](https://arxiv.org/abs/2407.11585) *(ACM MM 2024)*
 
 ### 1.5 Quantization Error Correction
 
-:white_check_mark: [**QNCD: Quantization Noise Correction for Diffusion Models**] [Paper](https://arxiv.org/abs/2403.19140) *(ACM MM 2024)*
+✅ [**QNCD: Quantization Noise Correction for Diffusion Models**] [Paper](https://arxiv.org/abs/2403.19140) *(ACM MM 2024)*
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/huanpengchu/qncd) 
+❇️ **Code:**
 
-:white_check_mark: [**PTQD: Accurate Post-Training Quantization for Diffusion Models**] [Paper](https://arxiv.org/abs/2305.10657) *(NeurIPS 2024)*
+* [Torch-based](https://github.com/huanpengchu/qncd)
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/ziplab/ptqd) 
+✅ [**PTQD: Accurate Post-Training Quantization for Diffusion Models**] [Paper](https://arxiv.org/abs/2305.10657) *(NeurIPS 2024)*
 
-:white_check_mark: [**Softmax Bias Correction for Quantized Generative Models**] [Paper](https://arxiv.org/abs/2309.01729) *(ICCV 2023, Workshop)*
+❇️ **Code:**
 
-:white_check_mark: [**D$^2$-DPM: Dual Denoising for Quantized Diffusion Probabilistic Models**] [Paper](https://arxiv.org/abs/2501.08180) *(AAAI 2025)*
+* [Torch-based](https://github.com/ziplab/ptqd)
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/taylorjocelyn/d2-dpm) 
+✅ [**Softmax Bias Correction for Quantized Generative Models**] [Paper](https://arxiv.org/abs/2309.01729) *(ICCV 2023, Workshop)*
 
-:white_check_mark: [**Timestep-Aware Correction for Quantized Diffusion Models**] [Paper](https://arxiv.org/abs/2407.03917) *(ECCV 2024)*
+✅ [**D$^2$-DPM: Dual Denoising for Quantized Diffusion Probabilistic Models**] [Paper](https://arxiv.org/abs/2501.08180) *(AAAI 2025)*
+
+❇️ **Code:**
+
+* [Torch-based](https://github.com/taylorjocelyn/d2-dpm)
+
+✅ [**Timestep-Aware Correction for Quantized Diffusion Models**] [Paper](https://arxiv.org/abs/2407.03917) *(ECCV 2024)*
 
 ### 1.6 Holistic QAT Optimization
 
-:white_check_mark: [**Q-DM: An Efficient Low-bit Quantized Diffusion Model**] [Paper](https://openreview.net/forum?id=sFGkL5BsPi) *(NeurIPS 2023)*
+✅ [**Q-DM: An Efficient Low-bit Quantized Diffusion Model**] [Paper](https://openreview.net/forum?id=sFGkL5BsPi) *(NeurIPS 2023)*
 
-:white_check_mark: [**QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning**] [Paper](https://arxiv.org/abs/2402.03666)
+✅ [**QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning**] [Paper](https://arxiv.org/abs/2402.03666)
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/hatchetProject/QuEST) 
+❇️ **Code:**
 
-:white_check_mark: [**Memory-Efficient Fine-Tuning for Quantized Diffusion Model**] [Paper](https://arxiv.org/abs/2401.04339) *(ECCV 2024)*
+* [Torch-based](https://github.com/hatchetProject/QuEST)
+
+✅ [**Memory-Efficient Fine-Tuning for Quantized Diffusion Model**] [Paper](https://arxiv.org/abs/2401.04339) *(ECCV 2024)*
 
 ### 1.7 Ultra-Low-Bit DMs
 
-:white_check_mark: [**Binary Latent Diffusion**] [Paper](https://arxiv.org/abs/2304.04820)
+✅ [**Binary Latent Diffusion**] [Paper](https://arxiv.org/abs/2304.04820)
 
-:white_check_mark: [**BiDM: Pushing the Limit of Quantization for Diffusion Models**] [Paper](https://arxiv.org/abs/2412.05926)
+✅ [**BiDM: Pushing the Limit of Quantization for Diffusion Models**] [Paper](https://arxiv.org/abs/2412.05926)
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/xingyu-zheng/bidm) 
+❇️ **Code:**
 
-:white_check_mark: [**Binarydm: Towards accurate binarization of diffusion model**] [Paper](https://arxiv.org/abs/2404.05662v1)
+* [Torch-based](https://github.com/xingyu-zheng/bidm)
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/xingyu-zheng/binarydm) 
+✅ [**Binarydm: Towards accurate binarization of diffusion model**] [Paper](https://arxiv.org/abs/2404.05662v1)
 
-:white_check_mark: [**BitsFusion: 1.99 bits Weight Quantization of Diffusion Model**] [Paper](https://arxiv.org/abs/2406.04333) *(NeurIPS 2024)*
+❇️ **Code:**
 
+* [Torch-based](https://github.com/xingyu-zheng/binarydm)
 
-:white_check_mark: [**Binarized Diffusion Model for Image Super-Resolution**] [Paper](https://arxiv.org/abs/2406.05723)
+✅ [**BitsFusion: 1.99 bits Weight Quantization of Diffusion Model**] [Paper](https://arxiv.org/abs/2406.04333) *(NeurIPS 2024)*
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/zhengchen1999/bi-diffsr)
+✅ [**Binarized Diffusion Model for Image Super-Resolution**] [Paper](https://arxiv.org/abs/2406.05723)
+
+❇️ **Code:**
+
+* [Torch-based](https://github.com/zhengchen1999/bi-diffsr)
 
 ### 1.8 LoRA-Based Enhancements
 
-:white_check_mark: [**EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models**] [Paper](https://arxiv.org/abs/2310.03270) *(ICLR 2024)*
+✅ [**EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models**] [Paper](https://arxiv.org/abs/2310.03270) *(ICLR 2024)*
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/thisisbillhe/efficientdm) 
+❇️ **Code:**
 
-:white_check_mark: [**IntLoRA: Integral Low-rank Adaptation of Quantized Diffusion Models**] [Paper](https://arxiv.org/abs/2410.21759) 
+* [Torch-based](https://github.com/thisisbillhe/efficientdm)
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/csguoh/intlora) 
+✅ [**IntLoRA: Integral Low-rank Adaptation of Quantized Diffusion Models**] [Paper](https://arxiv.org/abs/2410.21759)
 
+❇️ **Code:**
 
+* [Torch-based](https://github.com/csguoh/intlora)
 
 ### 2. Diffusion-Transformer(DiT) Quantization
 
 ### 2.1 Group-wise Quantization
 
-:white_check_mark: [**An Analysis on Quantizing Diffusion Transformers**] [Paper](https://arxiv.org/abs/2406.11100) *(CVPR workshop)*
+✅ [**An Analysis on Quantizing Diffusion Transformers**] [Paper](https://arxiv.org/abs/2406.11100) *(CVPR workshop)*
 
+✅ [**Q-DIT: ACCURATE POST-TRAINING QUANTIZATION FOR DIFFUSION TRANSFORMERS**] [Paper](https://arxiv.org/abs/2406.17343) *(CVPR 2025)*
 
-:white_check_mark: [**Q-DIT: ACCURATE POST-TRAINING QUANTIZATION FOR DIFFUSION TRANSFORMERS**] [Paper](https://arxiv.org/abs/2406.17343) *(CVPR 2025)*
+❇️ **Code:**
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/juanerx/q-dit) 
+* [Torch-based](https://github.com/juanerx/q-dit)
 
 ### 2.2 Channel Equalization
 
-:white_check_mark: [**PTQ4DiT: Post-training Quantization for Diffusion Transformers**] [Paper](https://arxiv.org/abs/2405.16005) *(NerIPS 2024)*
+✅ [**PTQ4DiT: Post-training Quantization for Diffusion Transformers**] [Paper](https://arxiv.org/abs/2405.16005) *(NerIPS 2024)*
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/adreamwu/ptq4dit) 
+❇️ **Code:**
 
-:white_check_mark: [**DiTAS: Quantizing Diffusion Transformers via Enhanced Activation Smoothing**] [Paper](https://arxiv.org/abs/2409.07756) *(WACV 2025)*
+* [Torch-based](https://github.com/adreamwu/ptq4dit)
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/DZY122/DiTAS) 
+✅ [**DiTAS: Quantizing Diffusion Transformers via Enhanced Activation Smoothing**] [Paper](https://arxiv.org/abs/2409.07756) *(WACV 2025)*
 
-:white_check_mark: [**ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation**] [Paper](https://arxiv.org/abs/2406.02540) *(ICLR 2025)*
+❇️ **Code:**
 
-:sparkle: **Code:**
-*   [Torch-based](https://github.com/a-suozhang/vidit-q) 
+* [Torch-based](https://github.com/DZY122/DiTAS)
 
-:white_check_mark: [**HQ-DiT: Efficient Diffusion Transformer with FP4 Hybrid Quantization**] [Paper](https://arxiv.org/abs/2405.19751) 
+✅ [**ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation**] [Paper](https://arxiv.org/abs/2406.02540) *(ICLR 2025)*
 
+❇️ **Code:**
+
+* [Torch-based](https://github.com/a-suozhang/vidit-q)
+
+✅ [**HQ-DiT: Efficient Diffusion Transformer with FP4 Hybrid Quantization**] [Paper](https://arxiv.org/abs/2405.19751)
 
