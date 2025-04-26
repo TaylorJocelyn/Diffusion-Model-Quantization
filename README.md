@@ -47,7 +47,7 @@ Thanks! -->
 
 <p align='center'>
     </br>
-    <img src='framework.png' width='1000'>
+    <img src='pic/framework.png' width='1000'>
 </p>
 
 <!-- ## Materials corresponding to Our Paper
@@ -278,6 +278,30 @@ Thanks! -->
         </td>
     </tr>
 </table>
+
+## BenchMarking Experiments
+> We comprehensively evaluate the open-source **PTQ-based** and **QAT-based** methods in three tasks: **unconditional image generation**, **class-conditional image generation**, and **text-conditional guided image generation**. The details of the benchmarks for each task are outlined as follows.
+### Unconditional Image Generation
+- We coducted a performance evaluation of various approaches for unconditional image generation, using LDM-4 (η = 1.0, steps = 200) on the LSUN-Bedrooms 256×256 dataset and LDM-8 (η = 0.0, steps = 200) on the LSUN-Churches 256×256 dataset.
+<p align='center'>
+    </br>
+    <img src='pic/uig_exp.png' width='580'>
+</p>
+
+### Class-conditional Image Generation
+- We also conducted a performance evaluation of various approaches for class-conditional image generation, using LDM-4 (scale = 3.0, η = 0.0, steps = 20) on the ImageNet 256×256 dataset. The dagger (†) symbol indicates QAT-based methods.
+<p align='center'>
+    </br>
+    <img src='pic/cig_exp.png' width='580'>
+</p>
+
+### Text-conditional Guided Image Generation
+- At last, we conducted a performance comparison of text-guided image generation with Stable-Diffusion v1-4 on MSCOCO captions.
+<p align='center'>
+    </br>
+    <img src='pic/tig_exp.png' width='580'>
+</p>
+
 
 
 
