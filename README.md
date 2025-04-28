@@ -1,10 +1,13 @@
-# Diffusion-Model-Quantization <img class="emoji" alt=":art:" height="30" width="30" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png">
+<p align='center'>
+    </br>
+    <img src='pic/QODM.png' width='200'>
+</p>
 
-Selected papers, corresponding codes and pre-trained models in our review paper
+<!-- # Quantization of Diffusion Models <img class="emoji" alt=":art:" height="30" width="30" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png"> -->
 
-<!-- **"Neural Style Transfer: A Review" [[arXiv Version]](https://arxiv.org/abs/1705.04058) [[IEEE Version]](https://ieeexplore.ieee.org/document/8732370)** -->
 
-*If I missed your paper in this review, please email me or just pull a request here. I am more than happy to add it. Thanks!*
+# Quantization of Diffusion Models
+
 
 <!-- 
 ## Citation 
@@ -39,11 +42,18 @@ Please also consider citing our ECCV paper and AAAI (Oral) paper:
 
 Thanks! -->
 
----
+<!-- --- -->
 
 ## *News!*
 
-- [April, 2025] Published a review! Summarized the current mainstream quantization methods for diffusion models.
+**[April, 2025] We have released a new survey paper based on this repository and summarized the current mainstream quantization methods for diffusion models! We are looking forward to any comments or discussions on this topic :)**
+
+Selected papers, corresponding codes and pre-trained models in our review paper. <br> *If I missed your paper in this review, please email me or just pull a request here. I am more than happy to add it. Thanks!*
+
+<!-- **"Neural Style Transfer: A Review" [[arXiv Version]](https://arxiv.org/abs/1705.04058) [[IEEE Version]](https://ieeexplore.ieee.org/document/8732370)** -->
+
+
+
 <p align='center'>
     </br>
     <img src='pic/framework_v2.png' width='1000'>
