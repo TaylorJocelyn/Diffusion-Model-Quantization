@@ -1,6 +1,6 @@
 <p align='center'>
     </br>
-    <img src='pic/QODM.png' width='200'>
+    <img src='pic/QODM.png' width='290'>
 </p>
 
 <!-- # Quantization of Diffusion Models <img class="emoji" alt=":art:" height="30" width="30" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png"> -->
