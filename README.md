@@ -56,7 +56,7 @@ Selected papers, corresponding codes and pre-trained models in our review paper.
 
 <p align='center'>
     </br>
-    <img src='pic/framework_v2.png' width='1000'>
+    <img src='pic/framework.png' width='1000'>
 </p>
 
 <!-- ## Materials corresponding to Our Paper
