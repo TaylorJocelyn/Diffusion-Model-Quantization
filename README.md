@@ -53,7 +53,6 @@ Selected papers, corresponding codes and pre-trained models in our review paper.
 <!-- **"Neural Style Transfer: A Review" [[arXiv Version]](https://arxiv.org/abs/1705.04058) [[IEEE Version]](https://ieeexplore.ieee.org/document/8732370)** -->
 
 
-
 <p align='center'>
     </br>
     <img src='pic/framework.png' width='1000'>
