@@ -73,7 +73,7 @@ Selected papers, corresponding codes and pre-trained models in our review paper.
         <th style="font-weight: bold; border: 1px solid black;">Paper&Code</th>
     </tr>
     <tr>
-        <td rowspan="22" colspan="1" style="border: 1px solid black;"><b>Unet-based Diffusion Quantization</b></td>
+        <td rowspan="23" colspan="1" style="border: 1px solid black;"><b>Unet-based Diffusion Quantization</b></td>
         <td rowspan="2" colspan="1" style="border: 1px solid black;"><b>Calibration Strategy Customization</b></td>
         <td style="border: 1px solid black;"><b>✅[Post-training Quantization on Diffusion Models]</b>
             (<a href="https://arxiv.org/abs/2211.15736" target="_blank" style="color: blue; text-decoration: underline;">Paper</a> ||
@@ -158,9 +158,17 @@ Selected papers, corresponding codes and pre-trained models in our review paper.
     <tr>
         <td style="border: 1px solid black;">
             <b>✅[Timestep-Aware Correction for Quantized Diffusion Models]</b>
-            <b>✅[D$^2$-DPM: Dual Denoising for Quantized Diffusion Probabilistic Models]</b>
             (<a href="https://arxiv.org/abs/2407.03917" target="_blank" style="color: blue; text-decoration: underline;">Paper</a> || Code: No public)
             <i>(ECCV 2024)</i>
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;"><b>Text-Image Consistency
+Preservation</b></td>
+        <td style="border: 1px solid black;">
+            <b>✅[DGQ: Distribution-Aware Group Quantization for Text-to-Image Diffusion Models]</b>
+            (<a href="https://arxiv.org/abs/2501.04304" target="_blank" style="color: blue; text-decoration: underline;">Paper</a> || <a href="https://github.com/ugonfor/DGQ" target="_blank" style="color: blue; text-decoration: underline;">Code: Torch-based</a>)
+            <i>(ICLR 2025)</i>
         </td>
     </tr>
     <tr>
@@ -283,7 +291,7 @@ Selected papers, corresponding codes and pre-trained models in our review paper.
             <b>✅[HQ-DiT: Efficient Diffusion Transformer with FP4 Hybrid Quantization]</b>
             (<a href="https://arxiv.org/abs/2405.19751" target="_blank" style="color: blue; text-decoration: underline;">Paper</a> || Code: No public)
         </td>
-    </tr>
+    </tr>、
 </table>
 
 ## BenchMarking Experiments
