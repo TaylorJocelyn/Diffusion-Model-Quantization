@@ -46,7 +46,7 @@ Thanks! -->
 
 ## *News!*
 
-**[April, 2025] We have released a new survey paper (https://arxiv.org/abs/2505.05215) based on this repository and summarized the current mainstream quantization methods for diffusion models! We are looking forward to any comments or discussions on this topic :)**
+**[April, 2025] We have released a new survey paper： *Diffusion Model Quantization: A Review* (https://arxiv.org/abs/2505.05215) based on this repository and summarized the current mainstream quantization methods for diffusion models! We are looking forward to any comments or discussions on this topic :)**
 
 Selected papers, corresponding codes and pre-trained models in our review paper. <br> *If I missed your paper in this review, please email me or just pull a request here. I am more than happy to add it. Thanks!*
 
